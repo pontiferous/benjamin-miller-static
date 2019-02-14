@@ -10,7 +10,6 @@ body {
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -30,8 +29,8 @@ body {
 
 header {
     height: 600px;
-    background: url('../img/hero.jpg');;
-    background-size: cover;
+    background: url('../img/hero.jpg');
+    background-size: 100%;
 }
 
 h1 {
@@ -39,6 +38,7 @@ h1 {
     font-family: 'Lora', serif;
     font-size: 30px;
     padding: 50px 0;
+    margin: 50px;
 }
 
 nav {
@@ -63,6 +63,7 @@ header h2 {
     line-height: 80px;
     padding: 20px 0;
     color: #a3efe2;
+    margin: 50px;
 }
 header h2 span {
     color: #a3efe2;
@@ -77,6 +78,7 @@ header h2 span {
 #about h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
+    padding-left: 50px;
 }
 
 #about p {
@@ -84,12 +86,14 @@ header h2 span {
     color: #7F7F7F;
     line-height: 40px;
     padding-right: 50px;
+    padding-left: 50px;
 }
 
 /***** WORK *****/
 
 #work {
   background-color: #5196fd;
+  background-size: 100%;
   text-align: center;
 }
 
@@ -118,6 +122,7 @@ header h2 span {
 
 #contact {
     background-color: #EBEBEB;
+    background-size: 100%;
 }
 
 
@@ -127,6 +132,7 @@ header h2 span {
 
 #contact-img {
     border: 12px solid #ffffff;
+    margin: 0 0 50px 50px;
 }
 
 #contact h2, #email-header, #socialmedia-header, #contact ul {
@@ -169,6 +175,7 @@ header h2 span {
 }
 
 
+
 /* ==========================================================================
    Media Queries for Responsive Design.
 
@@ -178,9 +185,8 @@ header h2 span {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1200px) {
 
-}
 
 
 /* ==========================================================================
