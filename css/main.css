@@ -171,40 +171,14 @@ header h2 span {
 
 /* ==========================================================================
    Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+
    ========================================================================== */
 
-@media only screen and (min-width: 375px) {
-  .full-width{
-    width: 768px;
-  }
+@media only screen and (max-width: 375px) {
 
-  .half-width{
-    width: 768px;
-  }
+}
 
-  .third-width{
-    width: 768px;
-  }
-
-  .work{
-    height:auto;
-    background
-  }
-
-  #work {
-    text-align: center;
-    height: 900px;
-  }
-
-  #contact{
-    height: 900px;
-  }
-
-  #contact-img{
-    align-items: center;
-  }
+@media only screen and (max-width: 768px) {
 
 }
 
