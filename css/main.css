@@ -137,9 +137,11 @@ header h2 span {
 }
 
 #contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 50px;
 }
 
 #envelope {
+    padding: 0 10px 0 50px;
 }
 
 #contact h2 {
