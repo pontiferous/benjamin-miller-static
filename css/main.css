@@ -6,7 +6,6 @@ body {
 }
 
 #about, #work, #contact {
-    height: 500px;
 }
 
 /***** GRID *****/
@@ -15,15 +14,15 @@ body {
 }
 
 .half-width {
-    width: 600px;
+    /*width: 600px;*/
     margin: 0 auto;
-    float: left;
+    /*float: left;*/
 }
 
 .third-width {
-    width: 400px;
+    /*width: 400px;*/
     margin: 0 auto;
-    float: left;
+    /*float: left;*/
 }
 
 /***** HEADER *****/
@@ -46,9 +45,11 @@ nav {
     float: right;
     padding: 75px 40px;
 }
+
 nav ul li{
     display: inline-block;
 }
+
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
@@ -60,12 +61,13 @@ header h2 {
     width: auto;
     clear: both;
     font-family: 'Lora', serif;
-    font-size: 72px;
+    font-size: 70px;
     line-height: 80px;
     padding: 20px 0;
     color: #a3efe2;
-    margin: 50px;
+    margin: 0px 0px 0px 30px;
 }
+
 header h2 span {
     color: #a3efe2;
 }
@@ -88,6 +90,7 @@ header h2 span {
     line-height: 40px;
     padding-right: 50px;
     padding-left: 50px;
+    justify-content: center;
 }
 
 /***** WORK *****/
@@ -124,8 +127,8 @@ header h2 span {
 #contact {
     /*background-color: #EBEBEB;*/
     background-size: 100%;
+    justify-content: center;
 }
-
 
 #contact .full-width {
     padding: 110px 0;
