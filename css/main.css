@@ -98,7 +98,7 @@ header h2 span {
 /***** WORK *****/
 
 #work {
-  /*background-color: #5196fd; */
+  background-color: #5196fd;
   background-size: 100%;
   text-align: center;
 }
@@ -127,7 +127,7 @@ header h2 span {
 /***** CONTACT *****/
 
 #contact {
-    /*background-color: #EBEBEB;*/
+    background-color: #EBEBEB;
     background-size: 100%;
     justify-content: center;
 }
